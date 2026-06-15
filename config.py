@@ -6,6 +6,8 @@ load_dotenv()
 class Config:
     # Anthropic
     ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
+    GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
+    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 
     # UiPath
     UIPATH_CLIENT_ID = os.getenv("UIPATH_CLIENT_ID", "")

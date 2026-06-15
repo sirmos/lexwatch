@@ -1,7 +1,7 @@
 import sys
 sys.path.insert(0, '/workspaces/lexwatch')
 
-import anthropic
+from groq import Groq
 from typing import List
 from rich.console import Console
 from agents.scraper_agent import RegulatoryUpdate
@@ -10,7 +10,7 @@ from config import config
 console = Console()
 
 class ClassificationResult:
-    def __init__(self, update_id: str, impact_level: str, affected_departments: List[str], 
+    def __init__(self, update_id: str, impact_level: str, affected_departments: List[str],
                  summary: str, action_required: str, reasoning: str):
         self.update_id = update_id
         self.impact_level = impact_level
@@ -24,10 +24,11 @@ class ClassificationResult:
                 f"impact={self.impact_level}, "
                 f"departments={self.affected_departments})")
 
+
 class ClassifierAgent:
     def __init__(self):
-        self.client = anthropic.Anthropic(api_key=config.ANTHROPIC_API_KEY)
-        self.model = "claude-sonnet-4-6"
+        self.client = Groq(api_key=config.GROQ_API_KEY)
+        self.model = "llama-3.3-70b-versatile"
 
     def classify(self, update: RegulatoryUpdate) -> ClassificationResult:
         console.print(f"[cyan]🧠 Classifying: {update.title[:60]}...[/cyan]")
@@ -69,14 +70,24 @@ ACTION: [1 sentence]
 REASONING: [1 sentence]"""
 
         try:
-            message = self.client.messages.create(
+            response = self.client.chat.completions.create(
                 model=self.model,
+                messages=[
+                    {
+                        "role": "system",
+                        "content": "You are LexWatch, an enterprise regulatory compliance AI agent. Always respond in the exact format requested."
+                    },
+                    {
+                        "role": "user",
+                        "content": prompt
+                    }
+                ],
                 max_tokens=500,
-                messages=[{"role": "user", "content": prompt}]
+                temperature=0.1
             )
 
-            response = message.content[0].text
-            lines = response.strip().split('\n')
+            text = response.choices[0].message.content.strip()
+            lines = text.split('\n')
 
             impact = "MEDIUM"
             departments = ["Compliance"]
@@ -106,7 +117,7 @@ REASONING: [1 sentence]"""
                 reasoning=reasoning
             )
 
-            color = {"CRITICAL": "red", "HIGH": "yellow", 
+            color = {"CRITICAL": "red", "HIGH": "yellow",
                     "MEDIUM": "blue", "LOW": "green"}.get(impact, "white")
             console.print(f"  [{color}]● {impact}[/{color}] → {', '.join(departments)}")
             return result
@@ -133,3 +144,15 @@ REASONING: [1 sentence]"""
 
         console.print(f"\n[bold green]✅ Classification complete! {len(results)} updates classified.[/bold green]\n")
         return results
+
+
+if __name__ == "__main__":
+    from agents.scraper_agent import ScraperAgent
+    scraper = ScraperAgent()
+    updates = scraper.run()
+    classifier = ClassifierAgent()
+    results = classifier.run(updates)
+    for r in results:
+        color = {"CRITICAL": "red", "HIGH": "yellow",
+                "MEDIUM": "blue", "LOW": "green"}.get(r.impact_level, "white")
+        console.print(f"[{color}]● {r.impact_level}[/{color}] | {r.affected_departments} | {r.summary[:80]}")
