@@ -1,7 +1,7 @@
 [
   {
-    "case_id": "LW-20260615-A85915",
-    "created_at": "2026-06-15T18:27:26.749292",
+    "case_id": "LW-20260615-AAEB71",
+    "created_at": "2026-06-15T18:30:05.728542",
     "status": "OPEN",
     "priority": 3,
     "impact_level": "MEDIUM",
@@ -72,29 +72,29 @@
     ],
     "audit_trail": [
       {
-        "timestamp": "2026-06-15T18:27:26.749318",
+        "timestamp": "2026-06-15T18:30:05.728562",
         "action": "Case created by LexWatch Scraper Agent",
         "stage": "Intake & Classification"
       }
     ]
   },
   {
-    "case_id": "LW-20260615-92140C",
-    "created_at": "2026-06-15T18:27:26.750020",
+    "case_id": "LW-20260615-2E3EDC",
+    "created_at": "2026-06-15T18:30:05.729154",
     "status": "OPEN",
-    "priority": 3,
-    "impact_level": "MEDIUM",
+    "priority": 4,
+    "impact_level": "LOW",
     "title": "Amplifi Capital (U.K.) Limited enters administration",
     "source": "FCA (UK Financial Conduct Authority)",
     "jurisdiction": "UK",
-    "assigned_to": "compliance-team@company.com",
+    "assigned_to": "legal-team@company.com",
     "affected_departments": [
-      "Compliance",
+      "Legal",
       "Risk",
-      "Operations"
+      "Compliance"
     ],
-    "summary": "Amplifi Capital (U.K.) Limited, a firm authorised by the FCA, has entered administration, which may impact its customers and partners, including those who received personal loans from Reevo Money and credit broking services from My Community Finance. Compliance officers should monitor the situation and assess potential risks to their own organisation, particularly if they have dealings with Amplifi or its trading names.",
-    "action_required": "Review existing relationships with Amplifi Capital (U.K.) Limited and its trading names to determine potential exposure and necessary next steps.",
+    "summary": "The UK Financial Conduct Authority has announced that Amplifi Capital (U.K.) Limited, a firm authorised by the FCA, has entered administration, which may have implications for consumers and businesses that interact with the firm. This update is primarily informational, and compliance officers should be aware of the development to assess any potential impact on their organisation.",
+    "action_required": "Compliance officers should review the firm's relationships with Amplifi Capital (U.K.) Limited and its trading names to determine if any adjustments are needed to ensure ongoing compliance with regulatory requirements.",
     "policy_conflicts": 2,
     "current_stage": "Intake & Classification",
     "stages": [
@@ -150,15 +150,15 @@
     ],
     "audit_trail": [
       {
-        "timestamp": "2026-06-15T18:27:26.750051",
+        "timestamp": "2026-06-15T18:30:05.729170",
         "action": "Case created by LexWatch Scraper Agent",
         "stage": "Intake & Classification"
       }
     ]
   },
   {
-    "case_id": "LW-20260615-A2C079",
-    "created_at": "2026-06-15T18:27:26.750637",
+    "case_id": "LW-20260615-3B49AF",
+    "created_at": "2026-06-15T18:30:05.729680",
     "status": "OPEN",
     "priority": 4,
     "impact_level": "LOW",
@@ -171,8 +171,8 @@
       "Compliance",
       "Risk"
     ],
-    "summary": "The UK Financial Conduct Authority has fined an individual \u00a399,600 for disclosure failures, highlighting the importance of transparency in financial dealings. This update serves as a reminder for companies to ensure their disclosure practices are compliant with regulatory requirements to avoid similar penalties.",
-    "action_required": "Review and verify the company's disclosure policies and procedures to ensure compliance with FCA regulations.",
+    "summary": "The UK Financial Conduct Authority has fined Carlos Ricardo Fuenmayor \u00a399,600 for disclosure failures, highlighting the importance of transparency in financial dealings. This regulatory update serves as a reminder for companies to ensure compliance with disclosure requirements to avoid similar penalties.",
+    "action_required": "Review and verify current disclosure procedures to ensure compliance with FCA regulations.",
     "policy_conflicts": 2,
     "current_stage": "Intake & Classification",
     "stages": [
@@ -228,15 +228,15 @@
     ],
     "audit_trail": [
       {
-        "timestamp": "2026-06-15T18:27:26.750649",
+        "timestamp": "2026-06-15T18:30:05.729691",
         "action": "Case created by LexWatch Scraper Agent",
         "stage": "Intake & Classification"
       }
     ]
   },
   {
-    "case_id": "LW-20260615-9EC0D3",
-    "created_at": "2026-06-15T18:27:26.751173",
+    "case_id": "LW-20260615-E047C1",
+    "created_at": "2026-06-15T18:30:05.730315",
     "status": "OPEN",
     "priority": 3,
     "impact_level": "MEDIUM",
@@ -249,8 +249,8 @@
       "Risk",
       "Operations"
     ],
-    "summary": "The UK Financial Conduct Authority has proposed changes to mortgage rules to improve access for first-time buyers, older borrowers, and the self-employed, aiming for better outcomes in the evolving mortgage market. These changes may require adjustments to lending processes and risk assessments to ensure compliance with the new regulations.",
-    "action_required": "Review and update mortgage lending policies and procedures to align with the proposed FCA changes.",
+    "summary": "The UK Financial Conduct Authority has proposed changes to mortgage rules to improve access for first-time buyers, older borrowers, and the self-employed, aiming to provide more flexibility in mortgage lending. These changes are intended to reflect the evolving nature of work and income, allowing lenders to adapt their mortgage products and assessment processes accordingly.",
+    "action_required": "Review and assess current mortgage lending practices and policies to determine necessary adjustments in line with the proposed regulatory changes.",
     "policy_conflicts": 1,
     "current_stage": "Intake & Classification",
     "stages": [
@@ -306,15 +306,15 @@
     ],
     "audit_trail": [
       {
-        "timestamp": "2026-06-15T18:27:26.751185",
+        "timestamp": "2026-06-15T18:30:05.730327",
         "action": "Case created by LexWatch Scraper Agent",
         "stage": "Intake & Classification"
       }
     ]
   },
   {
-    "case_id": "LW-20260615-8AAEB0",
-    "created_at": "2026-06-15T18:27:26.751669",
+    "case_id": "LW-20260615-2A3446",
+    "created_at": "2026-06-15T18:30:05.730832",
     "status": "OPEN",
     "priority": 3,
     "impact_level": "MEDIUM",
@@ -327,8 +327,8 @@
       "Risk",
       "Operations"
     ],
-    "summary": "The UK Financial Conduct Authority has proposed changes to mortgage rules to increase accessibility for first-time buyers, older borrowers, and the self-employed, while maintaining consumer protections. These changes aim to give lenders more flexibility in considering individual circumstances and developing products that better meet people's needs.",
-    "action_required": "Review and assess current mortgage lending practices to determine necessary adjustments in line with the proposed FCA rule changes.",
+    "summary": "The UK Financial Conduct Authority has proposed changes to mortgage rules to increase accessibility for first-time buyers, older borrowers, and the self-employed, while maintaining strong consumer protections. These changes aim to give lenders more flexibility in considering individual circumstances and developing products that better meet people's needs.",
+    "action_required": "Compliance teams should review the proposed mortgage rule changes and assess their potential impact on current lending practices and procedures.",
     "policy_conflicts": 1,
     "current_stage": "Intake & Classification",
     "stages": [
@@ -384,15 +384,15 @@
     ],
     "audit_trail": [
       {
-        "timestamp": "2026-06-15T18:27:26.751680",
+        "timestamp": "2026-06-15T18:30:05.730843",
         "action": "Case created by LexWatch Scraper Agent",
         "stage": "Intake & Classification"
       }
     ]
   },
   {
-    "case_id": "LW-20260615-094A1C",
-    "created_at": "2026-06-15T18:27:26.752183",
+    "case_id": "LW-20260615-2E8CBF",
+    "created_at": "2026-06-15T18:30:05.731276",
     "status": "OPEN",
     "priority": 3,
     "impact_level": "MEDIUM",
@@ -405,8 +405,8 @@
       "Compliance",
       "Operations"
     ],
-    "summary": "The Bank for International Settlements' quarterly review highlights the need for central banks to adjust their lending operations to enhance market resilience, indicating a shift in regulatory focus. This update may require financial institutions to reassess their liquidity management and settlement processes to mitigate potential risks.",
-    "action_required": "Financial institutions should review their current liquidity management and settlement practices to identify areas for improvement in line with the BIS's recommendations.",
+    "summary": "The Bank for International Settlements (BIS) has released a quarterly review highlighting the need for central banks to recalibrate their lending operations to enhance market resilience, which may impact banking institutions' liquidity management and risk mitigation strategies. This update requires attention from relevant departments to assess and potentially adjust their processes to align with the BIS's recommendations.",
+    "action_required": "Banking institutions should review their liquidity management and risk mitigation processes to identify areas for improvement in line with the BIS's suggestions.",
     "policy_conflicts": 2,
     "current_stage": "Intake & Classification",
     "stages": [
@@ -462,15 +462,15 @@
     ],
     "audit_trail": [
       {
-        "timestamp": "2026-06-15T18:27:26.752192",
+        "timestamp": "2026-06-15T18:30:05.731284",
         "action": "Case created by LexWatch Scraper Agent",
         "stage": "Intake & Classification"
       }
     ]
   },
   {
-    "case_id": "LW-20260615-7389A0",
-    "created_at": "2026-06-15T18:27:26.752801",
+    "case_id": "LW-20260615-8D80A7",
+    "created_at": "2026-06-15T18:30:05.731859",
     "status": "OPEN",
     "priority": 3,
     "impact_level": "MEDIUM",
@@ -483,8 +483,8 @@
       "Compliance",
       "Operations"
     ],
-    "summary": "The Bank for International Settlements has released a paper examining the credit supply effects of bank resolutions, providing insights into how acquiring banks manage lending relationships after a sale-of-business resolution. This research may inform compliance strategies and risk management practices for banks involved in similar acquisitions or resolutions.",
-    "action_required": "Review the paper's findings and assess their potential impact on the organization's credit allocation and risk management processes.",
+    "summary": "The Bank for International Settlements has released a paper examining the credit supply effects of sale-of-business bank resolutions, providing insights into how an acquiring bank reshapes credit allocation after a resolution. This research may inform compliance strategies and risk management practices for banks involved in distressed acquisitions, potentially leading to moderate process adjustments.",
+    "action_required": "Review the paper's findings and assess their implications for the bank's credit supply and risk management processes to determine necessary adjustments.",
     "policy_conflicts": 1,
     "current_stage": "Intake & Classification",
     "stages": [
@@ -540,15 +540,15 @@
     ],
     "audit_trail": [
       {
-        "timestamp": "2026-06-15T18:27:26.752810",
+        "timestamp": "2026-06-15T18:30:05.731870",
         "action": "Case created by LexWatch Scraper Agent",
         "stage": "Intake & Classification"
       }
     ]
   },
   {
-    "case_id": "LW-20260615-3A3114",
-    "created_at": "2026-06-15T18:27:26.753464",
+    "case_id": "LW-20260615-52DCBB",
+    "created_at": "2026-06-15T18:30:05.732308",
     "status": "OPEN",
     "priority": 3,
     "impact_level": "MEDIUM",
@@ -561,8 +561,8 @@
       "Risk",
       "Operations"
     ],
-    "summary": "The Bank for International Settlements has released a report analyzing the anatomy of stablecoin transactions, highlighting the complexity of these transactions and their potential impact on regulatory interpretation. This report provides valuable insights for compliance officers to reassess their understanding of stablecoin activity and its implications for their organizations.",
-    "action_required": "Compliance officers should review the report and assess the potential impact of stablecoin transactions on their organization's regulatory compliance and risk management processes.",
+    "summary": "The Bank for International Settlements has released a report on the anatomy of stablecoin transactions, highlighting the complexity of these transactions and their potential impact on regulatory interpretation. This report provides valuable insights for compliance officers to reassess their understanding of stablecoin activity and its implications for regulatory compliance.",
+    "action_required": "Compliance officers should review the report and assess the potential impact on existing regulatory frameworks and processes within the next 90 days.",
     "policy_conflicts": 1,
     "current_stage": "Intake & Classification",
     "stages": [
@@ -618,15 +618,15 @@
     ],
     "audit_trail": [
       {
-        "timestamp": "2026-06-15T18:27:26.753473",
+        "timestamp": "2026-06-15T18:30:05.732318",
         "action": "Case created by LexWatch Scraper Agent",
         "stage": "Intake & Classification"
       }
     ]
   },
   {
-    "case_id": "LW-20260615-C61B4F",
-    "created_at": "2026-06-15T18:27:26.754225",
+    "case_id": "LW-20260615-6A1279",
+    "created_at": "2026-06-15T18:30:05.732912",
     "status": "OPEN",
     "priority": 3,
     "impact_level": "MEDIUM",
@@ -639,9 +639,9 @@
       "Compliance",
       "Finance"
     ],
-    "summary": "The Bank for International Settlements has issued a regulatory update regarding the strengthening of Additional Tier 1 instruments as going-concern capital, highlighting the need for improvements in their effectiveness. This update may require adjustments to banks' capital management and risk assessment processes to ensure compliance with the proposed changes.",
-    "action_required": "Banks should review their AT1 instruments and capital management strategies to identify potential areas for improvement in line with the BIS's recommendations.",
-    "policy_conflicts": 1,
+    "summary": "The Bank for International Settlements has issued a regulatory update regarding the strengthening of Additional Tier 1 instruments as going-concern capital, highlighting the need for improvements in their effectiveness. This update may require adjustments to banks' capital management and resolution planning processes to ensure compliance with the proposed enhancements.",
+    "action_required": "Banks should review their AT1 instruments and recapitalisation strategies to ensure alignment with the BIS's proposed enhancements and assess potential operational changes needed to support an orderly resolution.",
+    "policy_conflicts": 2,
     "current_stage": "Intake & Classification",
     "stages": [
       {
@@ -696,15 +696,15 @@
     ],
     "audit_trail": [
       {
-        "timestamp": "2026-06-15T18:27:26.754235",
+        "timestamp": "2026-06-15T18:30:05.732921",
         "action": "Case created by LexWatch Scraper Agent",
         "stage": "Intake & Classification"
       }
     ]
   },
   {
-    "case_id": "LW-20260615-583AB7",
-    "created_at": "2026-06-15T18:27:26.754991",
+    "case_id": "LW-20260615-AE6244",
+    "created_at": "2026-06-15T18:30:05.733490",
     "status": "OPEN",
     "priority": 3,
     "impact_level": "MEDIUM",
@@ -717,9 +717,9 @@
       "Compliance",
       "Finance"
     ],
-    "summary": "The Bank for International Settlements has published a report analyzing the systemic risk contribution of money market funds, highlighting the influence of fund characteristics on systemic risk during asset price bubbles. This report provides valuable insights for financial institutions to reassess their risk management strategies and ensure compliance with regulatory requirements.",
-    "action_required": "Review and update risk management policies to account for the potential systemic risk contribution of money market funds.",
-    "policy_conflicts": 3,
+    "summary": "The Bank for International Settlements has released a report analyzing the systemic risk contribution of money market funds, highlighting the influence of fund characteristics on systemic risk during asset price bubbles. This report provides valuable insights for financial institutions to reassess their risk management strategies and ensure compliance with regulatory requirements.",
+    "action_required": "Review and update risk management policies to account for the potential systemic risk contribution of money market funds, as outlined in the BIS report.",
+    "policy_conflicts": 2,
     "current_stage": "Intake & Classification",
     "stages": [
       {
@@ -774,7 +774,7 @@
     ],
     "audit_trail": [
       {
-        "timestamp": "2026-06-15T18:27:26.755002",
+        "timestamp": "2026-06-15T18:30:05.733500",
         "action": "Case created by LexWatch Scraper Agent",
         "stage": "Intake & Classification"
       }
