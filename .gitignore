@@ -1,0 +1,14 @@
+# Environment variables - NEVER commit these
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
