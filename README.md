@@ -1,4 +1,4 @@
-# ⚖️ LexWatch — AI-Powered Regulatory Compliance Agent
+# ⚖️ LexWatch, AI-Powered Regulatory Compliance Agent
 
 > Built for UiPath AgentHack 2026 | Track 1: UiPath Maestro Case
 
