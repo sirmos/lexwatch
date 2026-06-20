@@ -1,5 +1,6 @@
 import sys
-sys.path.insert(0, '/workspaces/lexwatch')
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import json
 from groq import Groq
