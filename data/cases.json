@@ -1,7 +1,241 @@
 [
   {
-    "case_id": "LW-20260620-B5BDB2",
-    "created_at": "2026-06-20T10:00:12.395022",
+    "case_id": "LW-20260623-59D76C",
+    "created_at": "2026-06-23T10:25:28.184188",
+    "status": "OPEN",
+    "priority": 3,
+    "impact_level": "MEDIUM",
+    "title": "Monevium Ltd enters special administration",
+    "source": "FCA (UK Financial Conduct Authority)",
+    "jurisdiction": "UK",
+    "assigned_to": "compliance-team@company.com",
+    "affected_departments": [
+      "Compliance",
+      "Risk",
+      "Legal"
+    ],
+    "summary": "Monevium Ltd, a UK-based payment services provider, has entered special administration, which may have implications for businesses that interact with or rely on Monevium's services. Compliance officers should be aware of this development and review their organization's relationships with Monevium to ensure regulatory requirements are met.",
+    "action_required": "Review existing contracts and relationships with Monevium Ltd to assess potential risks and ensure compliance with FCA regulations.",
+    "policy_conflicts": 3,
+    "current_stage": "Intake & Classification",
+    "stages": [
+      {
+        "stage": 1,
+        "name": "Intake & Classification",
+        "actor": "LexWatch AI Agent",
+        "status": "COMPLETED",
+        "description": "Regulatory update detected, classified and policy gaps identified"
+      },
+      {
+        "stage": 2,
+        "name": "Legal Review",
+        "actor": "Legal Team",
+        "status": "PENDING",
+        "description": "Legal team reviews regulatory update and confirms applicability"
+      },
+      {
+        "stage": 3,
+        "name": "Risk Assessment",
+        "actor": "Risk Team",
+        "status": "PENDING",
+        "description": "Risk team assesses business impact and exposure"
+      },
+      {
+        "stage": 4,
+        "name": "Policy Update",
+        "actor": "Compliance Team",
+        "status": "PENDING",
+        "description": "Compliance team drafts policy updates to address gaps"
+      },
+      {
+        "stage": 5,
+        "name": "Senior Approval",
+        "actor": "Chief Compliance Officer",
+        "status": "PENDING",
+        "description": "CCO reviews and approves all policy changes"
+      },
+      {
+        "stage": 6,
+        "name": "Implementation",
+        "actor": "Operations Team",
+        "status": "PENDING",
+        "description": "Operations implements approved policy changes across systems"
+      },
+      {
+        "stage": 7,
+        "name": "Case Closed",
+        "actor": "LexWatch AI Agent",
+        "status": "PENDING",
+        "description": "All changes verified, case closed and archived"
+      }
+    ],
+    "audit_trail": [
+      {
+        "timestamp": "2026-06-23T10:25:28.184206",
+        "action": "Case created by LexWatch Scraper Agent",
+        "stage": "Intake & Classification"
+      }
+    ]
+  },
+  {
+    "case_id": "LW-20260623-87940D",
+    "created_at": "2026-06-23T10:25:28.184810",
+    "status": "OPEN",
+    "priority": 3,
+    "impact_level": "MEDIUM",
+    "title": "FCA consults on proposals to support strong, consistent standards in the SIPP market",
+    "source": "FCA (UK Financial Conduct Authority)",
+    "jurisdiction": "UK",
+    "assigned_to": "compliance-team@company.com",
+    "affected_departments": [
+      "Compliance",
+      "Risk",
+      "Operations"
+    ],
+    "summary": "The UK Financial Conduct Authority (FCA) has proposed new standards to enhance consistency in the Self-Invested Personal Pensions (SIPP) market, focusing on due diligence, record keeping, and asset protection. These proposals aim to drive greater consistency among SIPP providers while maintaining flexibility and broad investment choices for customers.",
+    "action_required": "Compliance teams should review the FCA's proposals and assess their firm's current practices to identify areas for improvement and potential adjustments to ensure adherence to the proposed standards.",
+    "policy_conflicts": 2,
+    "current_stage": "Intake & Classification",
+    "stages": [
+      {
+        "stage": 1,
+        "name": "Intake & Classification",
+        "actor": "LexWatch AI Agent",
+        "status": "COMPLETED",
+        "description": "Regulatory update detected, classified and policy gaps identified"
+      },
+      {
+        "stage": 2,
+        "name": "Legal Review",
+        "actor": "Legal Team",
+        "status": "PENDING",
+        "description": "Legal team reviews regulatory update and confirms applicability"
+      },
+      {
+        "stage": 3,
+        "name": "Risk Assessment",
+        "actor": "Risk Team",
+        "status": "PENDING",
+        "description": "Risk team assesses business impact and exposure"
+      },
+      {
+        "stage": 4,
+        "name": "Policy Update",
+        "actor": "Compliance Team",
+        "status": "PENDING",
+        "description": "Compliance team drafts policy updates to address gaps"
+      },
+      {
+        "stage": 5,
+        "name": "Senior Approval",
+        "actor": "Chief Compliance Officer",
+        "status": "PENDING",
+        "description": "CCO reviews and approves all policy changes"
+      },
+      {
+        "stage": 6,
+        "name": "Implementation",
+        "actor": "Operations Team",
+        "status": "PENDING",
+        "description": "Operations implements approved policy changes across systems"
+      },
+      {
+        "stage": 7,
+        "name": "Case Closed",
+        "actor": "LexWatch AI Agent",
+        "status": "PENDING",
+        "description": "All changes verified, case closed and archived"
+      }
+    ],
+    "audit_trail": [
+      {
+        "timestamp": "2026-06-23T10:25:28.184818",
+        "action": "Case created by LexWatch Scraper Agent",
+        "stage": "Intake & Classification"
+      }
+    ]
+  },
+  {
+    "case_id": "LW-20260623-182598",
+    "created_at": "2026-06-23T10:25:28.185248",
+    "status": "OPEN",
+    "priority": 3,
+    "impact_level": "MEDIUM",
+    "title": "Investors get real-time view of UK bond market activity for the first time",
+    "source": "FCA (UK Financial Conduct Authority)",
+    "jurisdiction": "UK",
+    "assigned_to": "compliance-team@company.com",
+    "affected_departments": [
+      "Compliance",
+      "Operations",
+      "Finance"
+    ],
+    "summary": "The UK Financial Conduct Authority has introduced a bond consolidated tape, providing investors with real-time access to UK bond market activity, which may require adjustments to existing processes and systems. This update aims to enhance market transparency and may impact how financial institutions operate and report their bond trading activities.",
+    "action_required": "Financial institutions should review their current systems and processes to ensure they can effectively utilize and integrate the new bond consolidated tape data.",
+    "policy_conflicts": 2,
+    "current_stage": "Intake & Classification",
+    "stages": [
+      {
+        "stage": 1,
+        "name": "Intake & Classification",
+        "actor": "LexWatch AI Agent",
+        "status": "COMPLETED",
+        "description": "Regulatory update detected, classified and policy gaps identified"
+      },
+      {
+        "stage": 2,
+        "name": "Legal Review",
+        "actor": "Legal Team",
+        "status": "PENDING",
+        "description": "Legal team reviews regulatory update and confirms applicability"
+      },
+      {
+        "stage": 3,
+        "name": "Risk Assessment",
+        "actor": "Risk Team",
+        "status": "PENDING",
+        "description": "Risk team assesses business impact and exposure"
+      },
+      {
+        "stage": 4,
+        "name": "Policy Update",
+        "actor": "Compliance Team",
+        "status": "PENDING",
+        "description": "Compliance team drafts policy updates to address gaps"
+      },
+      {
+        "stage": 5,
+        "name": "Senior Approval",
+        "actor": "Chief Compliance Officer",
+        "status": "PENDING",
+        "description": "CCO reviews and approves all policy changes"
+      },
+      {
+        "stage": 6,
+        "name": "Implementation",
+        "actor": "Operations Team",
+        "status": "PENDING",
+        "description": "Operations implements approved policy changes across systems"
+      },
+      {
+        "stage": 7,
+        "name": "Case Closed",
+        "actor": "LexWatch AI Agent",
+        "status": "PENDING",
+        "description": "All changes verified, case closed and archived"
+      }
+    ],
+    "audit_trail": [
+      {
+        "timestamp": "2026-06-23T10:25:28.185254",
+        "action": "Case created by LexWatch Scraper Agent",
+        "stage": "Intake & Classification"
+      }
+    ]
+  },
+  {
+    "case_id": "LW-20260623-0E0B24",
+    "created_at": "2026-06-23T10:25:28.185760",
     "status": "OPEN",
     "priority": 4,
     "impact_level": "LOW",
@@ -71,250 +305,15 @@
     ],
     "audit_trail": [
       {
-        "timestamp": "2026-06-20T10:00:12.395040",
+        "timestamp": "2026-06-23T10:25:28.185768",
         "action": "Case created by LexWatch Scraper Agent",
         "stage": "Intake & Classification"
       }
     ]
   },
   {
-    "case_id": "LW-20260620-0EAA9D",
-    "created_at": "2026-06-20T10:00:12.395535",
-    "status": "OPEN",
-    "priority": 4,
-    "impact_level": "LOW",
-    "title": "Later life lending: building the fourth retirement pillar",
-    "source": "FCA (UK Financial Conduct Authority)",
-    "jurisdiction": "UK",
-    "assigned_to": "compliance-team@company.com",
-    "affected_departments": [
-      "Compliance",
-      "Risk",
-      "Operations"
-    ],
-    "summary": "The UK Financial Conduct Authority has released a speech discussing the potential for housing wealth to play a larger role in retirement planning, highlighting the need for increased awareness and consideration of later life lending options. This update is informational, providing insight into the FCA's perspective on the evolving landscape of retirement planning and financial services.",
-    "action_required": "Review the speech and consider its implications for the organization's later life lending policies and procedures to ensure alignment with the FCA's perspective.",
-    "policy_conflicts": 1,
-    "current_stage": "Intake & Classification",
-    "stages": [
-      {
-        "stage": 1,
-        "name": "Intake & Classification",
-        "actor": "LexWatch AI Agent",
-        "status": "COMPLETED",
-        "description": "Regulatory update detected, classified and policy gaps identified"
-      },
-      {
-        "stage": 2,
-        "name": "Legal Review",
-        "actor": "Legal Team",
-        "status": "PENDING",
-        "description": "Legal team reviews regulatory update and confirms applicability"
-      },
-      {
-        "stage": 3,
-        "name": "Risk Assessment",
-        "actor": "Risk Team",
-        "status": "PENDING",
-        "description": "Risk team assesses business impact and exposure"
-      },
-      {
-        "stage": 4,
-        "name": "Policy Update",
-        "actor": "Compliance Team",
-        "status": "PENDING",
-        "description": "Compliance team drafts policy updates to address gaps"
-      },
-      {
-        "stage": 5,
-        "name": "Senior Approval",
-        "actor": "Chief Compliance Officer",
-        "status": "PENDING",
-        "description": "CCO reviews and approves all policy changes"
-      },
-      {
-        "stage": 6,
-        "name": "Implementation",
-        "actor": "Operations Team",
-        "status": "PENDING",
-        "description": "Operations implements approved policy changes across systems"
-      },
-      {
-        "stage": 7,
-        "name": "Case Closed",
-        "actor": "LexWatch AI Agent",
-        "status": "PENDING",
-        "description": "All changes verified, case closed and archived"
-      }
-    ],
-    "audit_trail": [
-      {
-        "timestamp": "2026-06-20T10:00:12.395543",
-        "action": "Case created by LexWatch Scraper Agent",
-        "stage": "Intake & Classification"
-      }
-    ]
-  },
-  {
-    "case_id": "LW-20260620-4B0872",
-    "created_at": "2026-06-20T10:00:12.395954",
-    "status": "OPEN",
-    "priority": 3,
-    "impact_level": "MEDIUM",
-    "title": "Court orders appointment of special administrators for Euro Exchange Securities UK Limited",
-    "source": "FCA (UK Financial Conduct Authority)",
-    "jurisdiction": "UK",
-    "assigned_to": "legal-team@company.com",
-    "affected_departments": [
-      "Legal",
-      "Compliance",
-      "Risk",
-      "Operations"
-    ],
-    "summary": "The UK Financial Conduct Authority has appointed special administrators for Euro Exchange Securities UK Limited, effectively ceasing the firm's trading activities, and the company will work to return client money as quickly as possible. This regulatory update highlights the importance of compliance with financial regulations to avoid similar outcomes.",
-    "action_required": "Review and ensure the company's trading practices and client money handling procedures are compliant with FCA regulations to prevent similar administrative actions.",
-    "policy_conflicts": 3,
-    "current_stage": "Intake & Classification",
-    "stages": [
-      {
-        "stage": 1,
-        "name": "Intake & Classification",
-        "actor": "LexWatch AI Agent",
-        "status": "COMPLETED",
-        "description": "Regulatory update detected, classified and policy gaps identified"
-      },
-      {
-        "stage": 2,
-        "name": "Legal Review",
-        "actor": "Legal Team",
-        "status": "PENDING",
-        "description": "Legal team reviews regulatory update and confirms applicability"
-      },
-      {
-        "stage": 3,
-        "name": "Risk Assessment",
-        "actor": "Risk Team",
-        "status": "PENDING",
-        "description": "Risk team assesses business impact and exposure"
-      },
-      {
-        "stage": 4,
-        "name": "Policy Update",
-        "actor": "Compliance Team",
-        "status": "PENDING",
-        "description": "Compliance team drafts policy updates to address gaps"
-      },
-      {
-        "stage": 5,
-        "name": "Senior Approval",
-        "actor": "Chief Compliance Officer",
-        "status": "PENDING",
-        "description": "CCO reviews and approves all policy changes"
-      },
-      {
-        "stage": 6,
-        "name": "Implementation",
-        "actor": "Operations Team",
-        "status": "PENDING",
-        "description": "Operations implements approved policy changes across systems"
-      },
-      {
-        "stage": 7,
-        "name": "Case Closed",
-        "actor": "LexWatch AI Agent",
-        "status": "PENDING",
-        "description": "All changes verified, case closed and archived"
-      }
-    ],
-    "audit_trail": [
-      {
-        "timestamp": "2026-06-20T10:00:12.395960",
-        "action": "Case created by LexWatch Scraper Agent",
-        "stage": "Intake & Classification"
-      }
-    ]
-  },
-  {
-    "case_id": "LW-20260620-7D1FFA",
-    "created_at": "2026-06-20T10:00:12.396379",
-    "status": "OPEN",
-    "priority": 3,
-    "impact_level": "MEDIUM",
-    "title": "Amplifi Capital (U.K.) Limited enters administration",
-    "source": "FCA (UK Financial Conduct Authority)",
-    "jurisdiction": "UK",
-    "assigned_to": "compliance-team@company.com",
-    "affected_departments": [
-      "Compliance",
-      "Risk",
-      "Operations"
-    ],
-    "summary": "The UK Financial Conduct Authority has announced that Amplifi Capital (U.K.) Limited, a firm authorised by the FCA, has entered administration, which may impact its customers and partners. Compliance officers should review the firm's relationships with Amplifi and its trading names, Reevo Money and My Community Finance, to assess potential risks and necessary adjustments.",
-    "action_required": "Review existing contracts and relationships with Amplifi Capital (U.K.) Limited and its trading names to determine potential risks and required process adjustments.",
-    "policy_conflicts": 2,
-    "current_stage": "Intake & Classification",
-    "stages": [
-      {
-        "stage": 1,
-        "name": "Intake & Classification",
-        "actor": "LexWatch AI Agent",
-        "status": "COMPLETED",
-        "description": "Regulatory update detected, classified and policy gaps identified"
-      },
-      {
-        "stage": 2,
-        "name": "Legal Review",
-        "actor": "Legal Team",
-        "status": "PENDING",
-        "description": "Legal team reviews regulatory update and confirms applicability"
-      },
-      {
-        "stage": 3,
-        "name": "Risk Assessment",
-        "actor": "Risk Team",
-        "status": "PENDING",
-        "description": "Risk team assesses business impact and exposure"
-      },
-      {
-        "stage": 4,
-        "name": "Policy Update",
-        "actor": "Compliance Team",
-        "status": "PENDING",
-        "description": "Compliance team drafts policy updates to address gaps"
-      },
-      {
-        "stage": 5,
-        "name": "Senior Approval",
-        "actor": "Chief Compliance Officer",
-        "status": "PENDING",
-        "description": "CCO reviews and approves all policy changes"
-      },
-      {
-        "stage": 6,
-        "name": "Implementation",
-        "actor": "Operations Team",
-        "status": "PENDING",
-        "description": "Operations implements approved policy changes across systems"
-      },
-      {
-        "stage": 7,
-        "name": "Case Closed",
-        "actor": "LexWatch AI Agent",
-        "status": "PENDING",
-        "description": "All changes verified, case closed and archived"
-      }
-    ],
-    "audit_trail": [
-      {
-        "timestamp": "2026-06-20T10:00:12.396385",
-        "action": "Case created by LexWatch Scraper Agent",
-        "stage": "Intake & Classification"
-      }
-    ]
-  },
-  {
-    "case_id": "LW-20260620-2935DE",
-    "created_at": "2026-06-20T10:00:12.396826",
+    "case_id": "LW-20260623-B5A9EB",
+    "created_at": "2026-06-23T10:25:28.186207",
     "status": "OPEN",
     "priority": 3,
     "impact_level": "MEDIUM",
@@ -327,8 +326,8 @@
       "Risk",
       "Finance"
     ],
-    "summary": "The Bank for International Settlements has issued a regulatory update regarding stablecoin remuneration on centralized exchanges, highlighting the potential risks and implications for financial institutions. This update may require moderate adjustments to existing processes and procedures to ensure compliance with emerging regulatory expectations.",
-    "action_required": "Conduct a review of current stablecoin holdings and remuneration practices to assess potential risks and ensure alignment with BIS guidelines.",
+    "summary": "The Bank for International Settlements has issued a regulatory update regarding stablecoin remuneration on centralized exchanges, highlighting the potential risks and implications for financial institutions. This update may require adjustments to existing compliance protocols and risk management strategies to ensure alignment with emerging regulatory expectations.",
+    "action_required": "Conduct a review of current stablecoin holdings and remuneration practices to assess potential risks and ensure compliance with relevant regulatory guidelines.",
     "policy_conflicts": 1,
     "current_stage": "Intake & Classification",
     "stages": [
@@ -384,15 +383,15 @@
     ],
     "audit_trail": [
       {
-        "timestamp": "2026-06-20T10:00:12.396832",
+        "timestamp": "2026-06-23T10:25:28.186214",
         "action": "Case created by LexWatch Scraper Agent",
         "stage": "Intake & Classification"
       }
     ]
   },
   {
-    "case_id": "LW-20260620-B42C8D",
-    "created_at": "2026-06-20T10:00:12.397228",
+    "case_id": "LW-20260623-331E10",
+    "created_at": "2026-06-23T10:25:28.186676",
     "status": "OPEN",
     "priority": 3,
     "impact_level": "MEDIUM",
@@ -405,7 +404,7 @@
       "Compliance",
       "Operations"
     ],
-    "summary": "The Bank for International Settlements has released a report highlighting the growing threat of cyber risk to economic and financial stability, emphasizing the need for corporations to prioritize digital safety. This report serves as a reminder for organizations to assess and strengthen their cyber insurance and risk management strategies to mitigate potential threats.",
+    "summary": "The Bank for International Settlements has released a report highlighting the growing threat of cyber risk to economic and financial stability, emphasizing the need for corporations to prioritize digital safety nets. This report serves as a reminder for organizations to assess and strengthen their cyber insurance and risk management strategies to mitigate potential threats.",
     "action_required": "Organizations should review and update their cyber risk management frameworks to ensure they are adequately prepared to address the evolving cyber threat landscape.",
     "policy_conflicts": 3,
     "current_stage": "Intake & Classification",
@@ -462,15 +461,15 @@
     ],
     "audit_trail": [
       {
-        "timestamp": "2026-06-20T10:00:12.397233",
+        "timestamp": "2026-06-23T10:25:28.186682",
         "action": "Case created by LexWatch Scraper Agent",
         "stage": "Intake & Classification"
       }
     ]
   },
   {
-    "case_id": "LW-20260620-33C2A6",
-    "created_at": "2026-06-20T10:00:12.397681",
+    "case_id": "LW-20260623-FA4F39",
+    "created_at": "2026-06-23T10:25:28.187121",
     "status": "OPEN",
     "priority": 3,
     "impact_level": "MEDIUM",
@@ -483,8 +482,8 @@
       "Compliance",
       "Finance"
     ],
-    "summary": "The Bank for International Settlements has proposed a framework for constructing fixed-income portfolios that integrates financial and environmental considerations, which may require adjustments to investment strategies and risk management practices. This update is relevant to financial institutions seeking to incorporate environmental factors into their portfolio construction and risk assessment processes.",
-    "action_required": "Financial institutions should review and assess the proposed framework to determine potential implications for their investment strategies and risk management practices.",
+    "summary": "The Bank for International Settlements has proposed a framework for constructing fixed-income portfolios that integrates financial and environmental considerations, which may require adjustments to existing risk management and investment strategies. This update is relevant to financial institutions seeking to incorporate environmental factors into their portfolio construction and risk assessment processes.",
+    "action_required": "Financial institutions should review and assess the proposed framework to determine potential implications for their fixed-income portfolio construction and risk management practices.",
     "policy_conflicts": 3,
     "current_stage": "Intake & Classification",
     "stages": [
@@ -540,106 +539,28 @@
     ],
     "audit_trail": [
       {
-        "timestamp": "2026-06-20T10:00:12.397687",
+        "timestamp": "2026-06-23T10:25:28.187126",
         "action": "Case created by LexWatch Scraper Agent",
         "stage": "Intake & Classification"
       }
     ]
   },
   {
-    "case_id": "LW-20260620-641967",
-    "created_at": "2026-06-20T10:00:12.398051",
+    "case_id": "LW-20260623-978468",
+    "created_at": "2026-06-23T10:25:28.187559",
     "status": "OPEN",
     "priority": 4,
     "impact_level": "LOW",
     "title": "Bond yield responses to macro news: the role of macro forecast disagreement and monetary policy uncertainty",
     "source": "BIS (Bank for International Settlements)",
     "jurisdiction": "Global",
-    "assigned_to": "finance-team@company.com",
-    "affected_departments": [
-      "Finance",
-      "Risk"
-    ],
-    "summary": "The Bank for International Settlements has released a research paper analyzing the response of bond yields to macroeconomic news, highlighting the impact of forecast disagreement and monetary policy uncertainty. This study provides valuable insights for financial institutions to better understand the dynamics of bond markets and inform their investment strategies.",
-    "action_required": "Review the research paper to enhance understanding of bond yield responses to macroeconomic news and consider incorporating its findings into risk management and investment decision-making processes.",
-    "policy_conflicts": 3,
-    "current_stage": "Intake & Classification",
-    "stages": [
-      {
-        "stage": 1,
-        "name": "Intake & Classification",
-        "actor": "LexWatch AI Agent",
-        "status": "COMPLETED",
-        "description": "Regulatory update detected, classified and policy gaps identified"
-      },
-      {
-        "stage": 2,
-        "name": "Legal Review",
-        "actor": "Legal Team",
-        "status": "PENDING",
-        "description": "Legal team reviews regulatory update and confirms applicability"
-      },
-      {
-        "stage": 3,
-        "name": "Risk Assessment",
-        "actor": "Risk Team",
-        "status": "PENDING",
-        "description": "Risk team assesses business impact and exposure"
-      },
-      {
-        "stage": 4,
-        "name": "Policy Update",
-        "actor": "Compliance Team",
-        "status": "PENDING",
-        "description": "Compliance team drafts policy updates to address gaps"
-      },
-      {
-        "stage": 5,
-        "name": "Senior Approval",
-        "actor": "Chief Compliance Officer",
-        "status": "PENDING",
-        "description": "CCO reviews and approves all policy changes"
-      },
-      {
-        "stage": 6,
-        "name": "Implementation",
-        "actor": "Operations Team",
-        "status": "PENDING",
-        "description": "Operations implements approved policy changes across systems"
-      },
-      {
-        "stage": 7,
-        "name": "Case Closed",
-        "actor": "LexWatch AI Agent",
-        "status": "PENDING",
-        "description": "All changes verified, case closed and archived"
-      }
-    ],
-    "audit_trail": [
-      {
-        "timestamp": "2026-06-20T10:00:12.398056",
-        "action": "Case created by LexWatch Scraper Agent",
-        "stage": "Intake & Classification"
-      }
-    ]
-  },
-  {
-    "case_id": "LW-20260620-16204E",
-    "created_at": "2026-06-20T10:00:12.400769",
-    "status": "OPEN",
-    "priority": 3,
-    "impact_level": "MEDIUM",
-    "title": "BIS Quarterly Review, June 2026",
-    "source": "BIS (Bank for International Settlements)",
-    "jurisdiction": "Global",
     "assigned_to": "risk-team@company.com",
     "affected_departments": [
       "Risk",
-      "Compliance",
-      "Operations"
+      "Finance"
     ],
-    "summary": "The Bank for International Settlements (BIS) has released a quarterly review highlighting the need for central banks to adjust their lending operations to enhance market resilience, which may impact banking institutions' risk management and operational processes. This update requires attention from relevant departments to assess and potentially mitigate risks associated with liquidity demand shifts and settlement risk.",
-    "action_required": "Banking institutions should review their current lending operations and risk management strategies to identify potential areas for adjustment in line with the BIS's recommendations.",
+    "summary": "The Bank for International Settlements has released a research paper analyzing the response of bond yields to macroeconomic news, highlighting the impact of forecast disagreement and monetary policy uncertainty. This study provides valuable insights for financial institutions to better understand and manage their risk exposure to macroeconomic surprises, but does not require immediate action.",
+    "action_required": "Review the research paper to enhance understanding of bond yield responses to macroeconomic news and consider incorporating its findings into risk management strategies.",
     "policy_conflicts": 2,
     "current_stage": "Intake & Classification",
     "stages": [
@@ -695,7 +616,85 @@
     ],
     "audit_trail": [
       {
-        "timestamp": "2026-06-20T10:00:12.400780",
+        "timestamp": "2026-06-23T10:25:28.187565",
+        "action": "Case created by LexWatch Scraper Agent",
+        "stage": "Intake & Classification"
+      }
+    ]
+  },
+  {
+    "case_id": "LW-20260623-962B11",
+    "created_at": "2026-06-23T10:25:28.188055",
+    "status": "OPEN",
+    "priority": 3,
+    "impact_level": "MEDIUM",
+    "title": "BIS Quarterly Review, June 2026",
+    "source": "BIS (Bank for International Settlements)",
+    "jurisdiction": "Global",
+    "assigned_to": "risk-team@company.com",
+    "affected_departments": [
+      "Risk",
+      "Compliance",
+      "Operations"
+    ],
+    "summary": "The Bank for International Settlements has released a quarterly review highlighting the need for central banks to recalibrate their lending operations to enhance market resilience, which may impact banking operations globally. This update emphasizes the importance of mitigating settlement risks in currency trades, which could lead to moderate adjustments in risk management and operational processes.",
+    "action_required": "Review and assess current lending operations and risk management processes to identify potential areas for adjustment in line with the BIS recommendations.",
+    "policy_conflicts": 2,
+    "current_stage": "Intake & Classification",
+    "stages": [
+      {
+        "stage": 1,
+        "name": "Intake & Classification",
+        "actor": "LexWatch AI Agent",
+        "status": "COMPLETED",
+        "description": "Regulatory update detected, classified and policy gaps identified"
+      },
+      {
+        "stage": 2,
+        "name": "Legal Review",
+        "actor": "Legal Team",
+        "status": "PENDING",
+        "description": "Legal team reviews regulatory update and confirms applicability"
+      },
+      {
+        "stage": 3,
+        "name": "Risk Assessment",
+        "actor": "Risk Team",
+        "status": "PENDING",
+        "description": "Risk team assesses business impact and exposure"
+      },
+      {
+        "stage": 4,
+        "name": "Policy Update",
+        "actor": "Compliance Team",
+        "status": "PENDING",
+        "description": "Compliance team drafts policy updates to address gaps"
+      },
+      {
+        "stage": 5,
+        "name": "Senior Approval",
+        "actor": "Chief Compliance Officer",
+        "status": "PENDING",
+        "description": "CCO reviews and approves all policy changes"
+      },
+      {
+        "stage": 6,
+        "name": "Implementation",
+        "actor": "Operations Team",
+        "status": "PENDING",
+        "description": "Operations implements approved policy changes across systems"
+      },
+      {
+        "stage": 7,
+        "name": "Case Closed",
+        "actor": "LexWatch AI Agent",
+        "status": "PENDING",
+        "description": "All changes verified, case closed and archived"
+      }
+    ],
+    "audit_trail": [
+      {
+        "timestamp": "2026-06-23T10:25:28.188062",
         "action": "Case created by LexWatch Scraper Agent",
         "stage": "Intake & Classification"
       }

@@ -1,8 +1,8 @@
-# ⚖️ LexWatch, AI-Powered Regulatory Compliance Agent
+# ⚖️ LexWatch, AI Powered Regulatory Compliance Agent
 
 > Built for UiPath AgentHack 2026 | Track 1: UiPath Maestro Case
 
-LexWatch is an enterprise-grade agentic compliance system that continuously monitors global regulatory bodies, classifies updates using AI, detects policy gaps, and orchestrates case-based workflows with human approval gates — all powered by UiPath Maestro Case.
+LexWatch is an enterprise-grade agentic compliance system that continuously monitors global regulatory bodies, classifies updates using AI, detects policy gaps, and orchestrates case-based workflows with human approval gates, all powered by UiPath Maestro Case.
 
 ---
 
@@ -62,12 +62,21 @@ Agent 4: Case Manager → Creates and routes Maestro cases to the right teams
 
 ## 🎯 UiPath Components Used
 
-- **UiPath Maestro Case** — Core orchestration and case management layer
-- **UiPath Agent Builder** — Wraps Python agents for platform integration
-- **UiPath API Workflows** — Connects to external regulatory data sources
-- **UiPath Automation Cloud** — Hosts and runs the entire solution
+- **UiPath Maestro Case**: Core orchestration and case management layer
+- **UiPath Agent Builder**: Wraps Python agents for platform integration
+- **UiPath API Workflows**: Connects to external regulatory data sources
+- **UiPath Automation Cloud**: Hosts and runs the entire solution
 
 > 🤖 **Bonus:** This solution was built using **Claude Code** (UiPath for Coding Agents), earning additional judging points under the Platform Usage criterion.
+
+## Agent Type
+
+LexWatch uses **Coded Agents** built with the UiPath Python SDK and 
+the Groq LLM API. All four agents (Scraper, Classifier, Policy Matcher, 
+and Case Manager) are coded agents written in Python. The BPMN 
+orchestration flow is built using UiPath Maestro BPMN on UiPath 
+Automation Cloud. This solution combines coded agents with low-code 
+BPMN orchestration for a hybrid approach.
 
 ---
 
