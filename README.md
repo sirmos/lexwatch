@@ -202,3 +202,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 Built with ❤️ for UiPath AgentHack 2026  
 Track: UiPath Maestro Case  
 Location: Akwa Ibom, Nigeria 🇳🇬
+
+## Agent Type
+
+LexWatch uses **Coded Agents** built with the UiPath Python SDK and the Groq LLM API. All four agents (Scraper, Classifier, Policy Matcher, and Case Manager) are coded agents written in Python. The BPMN orchestration flow is built using UiPath Maestro BPMN on UiPath Automation Cloud. This solution combines coded agents with low-code BPMN orchestration for a hybrid approach.
